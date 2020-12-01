@@ -6,7 +6,9 @@
 body{
 font-family: 'Montserrat', sans-serif;
 }
-
+hr{
+    margin: 2rem 0rem; 
+}
 .container{
     /* padding-left: 1rem;
     padding-right: 1rem; */
@@ -47,3 +49,13 @@ font-family: 'Montserrat', sans-serif;
     border-radius: 0.5rem;
     color:white;
 }*/
+/** lists**/
+
+.list-list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+    
+}
