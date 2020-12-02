@@ -78,6 +78,7 @@ hr{
 
 .navigation .nav-brand{
     font-weight: bold;
+    background-color: rgba(174, 20, 221, 0.815);    
     /* font-size: 1.1rem; */
 }
 .navigation .nav-pills{
@@ -89,5 +90,19 @@ hr{
 }
 
 .navigation .link-active{
-    font-weight: bold;
+    font-weight: bolder;
+}
+/* header */
+.hero{
+    padding:2rem;
+  /* KEEP IT IF YOU WANT text-align: center; */
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+   margin: auto; /*to make it center*/
+}
+
+.hero  .hero-heading{
+    
 }
