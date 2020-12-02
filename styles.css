@@ -73,6 +73,7 @@ hr{
     color: white; 
     height: 100%;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand{
@@ -87,3 +88,6 @@ hr{
     color:white;
 }
 
+.navigation .link-active{
+    font-weight: bold;
+}
