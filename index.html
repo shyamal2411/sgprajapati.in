@@ -4,142 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <title>Component Libraray</title>
-
-    <!-- <link href="styles.css" rel="stylesheet" /> -->
+    <title>Porfolio | Shyamal</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Welcome to the portfolio of Shyamal Prajapati</h1>
-    <p>I am attending neogcamp and want to make a Library which would make all projects look good and
-        consistent.</p>
-    <strong> Bold</strong>
-    <hr>
-    <hr>
-
-    <h2>@typography will look</h2>
-    <h1>This is biggest heading</h1>
-    <p> This is just a small text</p>
-    <h2>This is second biggest heading. </h2>
-    <h3>This is third heading</h3>
-
-    <!--<small>This is a small text</small>THIS IS FOR WRITING DATE IN PORTFOLIO-->
-    <hr>
-    <h2> @Container</h2>
-    <h3 class="container">Fluid Container</h3>
-    <div>This is fluid container and will go till the specified width</div>
-    <hr>
-    <h3>Center Container</h3>
-    <div class="container container-center">This is a center container and will remain in center as said</div>
-    <div class="link">
-
-        <h2>@links</h2>
-
-        <!-- <a href="https://linkedin.com/in/sgprajapati" target="_blank"><strong>LinkedIn</strong></a> -->
-
-
-        <a href="/" class="link link-primary"><strong>Primary Link</strong> </a>
-        <a class="link secondary-link" href="/"><b>Secondary Link</b></a><br>
-    </div><br>
-    <hr>
-
-    <h2>@Lists</h2>
-    <hr>
-    <h3>Unordered list</h3>
-    <p> Here we won't be having bullets</p>
-    <ul>
-        <ul class="list-non-bullet">
-            <li class="list-item-inline">Inline Item One</li>
-            <li class="list-item-inline">Inline Item Two</li>
-            <li class="list-item-inline">Inline Item Three</li>
+    <!-- <h1>Shyamal Prajapati</h1> -->
+    <nav class="navigation main ">
+        <!--  -->
+        <div class="nav-brand">Shyamal Prajapati</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">HOME</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">PROJECTS</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">BLOGS</a>
+            </li>
         </ul>
-        <h3>Reverse ordered list</h3>
-        <ol reversed>
-            <!--THIS IS FOR SHOWCASING PROJECTS IN LISTED MANNER-->
-            <li> Milk</li>
-            <li>Tea</li>
-        </ol>
-        <hr>
-        <div class="navigation">
-            <h2>@nav</h2>
-            <nav class="navigation main ">
-                <!--  -->
-                <div class="nav-brand">I am Shyamal Prajapati</div>
-                <ul class="list-non-bullet nav-pills">
-                    <li class="list-item-inline">
-                        <a class="link link-active" href="/">HOME</a>
-                    </li>
-                    <li class="list-item-inline">
-                        <a class="link" href="/">PROJECTS</a>
-                    </li>
-                    <li class="list-item-inline">
-                        <a class="link" href="/">ABOUT</a>
-                    </li>
-                </ul>
-            </nav>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-img" src="images/ff.svg" />
+
+        <h1 class="hero-heading">Hey there,<div style="color: var(--primary-color)">I'm Shyamal Prajapati</div>
+            <!-- !NOTE:IN ABOVE LINE, IF I USE DIV STYLE THE LINE ADJUSTS ITSELF, WHILE IF I USE SPAN THEN THE SENTENCE WILL ADJUST IN WHOLE SCREEN -->
+        </h1>
+    </header>
+    <section class="section ow">
+        <div class="container container-center">
+
+            <h1 class="heading">Technologies</h1>
+            <p>I'm familiar with C, C++, JAVA,SQL, HTML5, CSS3. Git.</p>
         </div>
-        <hr>
-        <h2> Header</h2>
+    </section>
 
-        <header class="hero">
-            <img class="hero-img" src="images/dev_image.svg" />
-            <!-- <img
-            src="https://instagram.famd1-2.fna.fbcdn.net/v/t51.2885-15/e35/126223047_374655583796416_6382475700937540613_n.jpg?_nc_ht=instagram.famd1-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=v6JSzl0AQk8AX_1ik2X&tp=1&oh=31d07e45f62afa55db3cf6b84453e9b3&oe=5FE9C182" />
-        <!--Image taken from insta source code-->
-            <h1 class="hero-heading">I'm learning Web Development from <div style="color: var(--primary-color)">Tanay
-                    Pratap sir</div>
-                <!-- !NOTE:IN ABOVE LINE, IF I USE DIV STYLE THE LINE ADJUSTS ITSELF, WHILE IF I USE SPAN THEN THE SENTENCE WILL ADJUST IN WHOLE SCREEN -->
-            </h1>
-        </header>
-        <hr>
-        <hr>
-        <h2>@Section</h2>
-
-        <section class="section ow">
-            <div class="container container-center">
-
-                <h1 class="heading">Offwhite Section</h1>
-                <p>Android Study Jams are community-organized study groups for people to learn how to build Android apps
-                    in the Kotlin
-                    programming language, using the curriculum provided by Google.</p>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container container-center">
-                <h2 class="heading">white Section</h2>
-                <p> In languages with grammatical number (that is, languages where the number of items affects the
-                    grammar of a sentence), use the same grammatical number in your title attribute as inside your
-                    element. This is especially important in languages with more than two numbers, such as Arabic, but
-                    is also relevant in English.</p>
-            </div>
-        </section>
-        <hr>
-
-        <h2> @footer</h2>
-        <footer class="footer">
-            <div class="footer-header">Some small heading inside footer
-                <ul class="social-links list-non-bullet">
-
-                    <li class=" list-item-inline"> <a class="link" href="/"> SocialOne</a></li>
-                    <li class=" list-item-inline"> <a class="link" href="/"> SocialTwo</a> </li>
-                    <li class=" list-item-inline"> <a class="link" href="/"> Social Three</a></li>
-                </ul>
-            </div>
-        </footer>
-        <!--<footer class="footer container">
-            <div class="container">
-                <div class="heading">header inside footer</div>
-                <ul class="unordered list-inline">
-                    <li>socialone</li>
-                    <li>socialtwo</li>
-                    <li>socialthree</li>
-                </ul>
-            </div>
-        </footer>-->
-        <!-- <div style="height: 20vh;"> -->
+    <section class="section">
+        <div class="container container-center">
+            <h2 class="heading">Codes</h2>
+            <p> I would like to showcase my practice programs on C,C++ and JAVA held online.</p>
+            <a class="link-secondary " href="/">Codes</a>
         </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1 class="heading">Blogs</h1>
+            <p>To read my blog on Making Virtual Machine using Azure, Please click on the link.</p>
+            <a class="link-secondary"
+                href="https://medium.com/@shyamalgprajapati/creating-a-virtual-machine-using-microsoft-azure-7242ccebadd8">Read
+                Blogs</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Connect with me on:
+            <ul class="social-links list-non-bullet">
+
+                <li class=" list-item-inline"> <a class="link" target="a _blank"
+                        href="https://www.linkedin.com/in/sgprajapati/">
+                        LinkedIn</a></li>
+                <li class=" list-item-inline"> <a class="link" target="a _blank" href="https://github.com/shyamal2411">
+                        Github</a> </li>
+                <li class=" list-item-inline"> <a class="link" target="a _blank"
+                        href="https://www.instagram.com/shyamal.24/">
+                        Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
