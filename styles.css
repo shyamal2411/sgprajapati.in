@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 :root{
-    --primary-color: rgba(174, 20, 221, 0.815);
+    --primary-color:rgb(182, 7, 159);
     --dark-grey:#4B5563;
 }
 
@@ -20,7 +20,7 @@ hr{
 .container{
     /* padding-left: 1rem;
     padding-right: 1rem; */
-    padding: 0rem 1rem;
+    /* padding: 0rem 1rem; */
 }
 
 .container-center{
@@ -34,7 +34,7 @@ hr{
 .link a{
     text-decoration: none;
     padding: 0.5rem 1rem;
-        color:  rgba(174, 20, 221, 0.815);
+        color:  rgb(182, 7, 159);
         background-color:whitesmoke;
         border-radius: 0.5rem;
         border: 0.5px solid whitesmoke;
@@ -77,9 +77,13 @@ hr{
     border-bottom-left-radius: 1rem;
 }
 
+.navigation .main{
+  display: flex;
+  justify-content: space-between;
+}
 .navigation .nav-brand{
     font-weight: bold;
-    background-color: rgba(174, 20, 221, 0.815);    
+    background-color:    
     /* font-size: 1.1rem; */
 }
 .navigation .nav-pills{
