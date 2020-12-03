@@ -70,8 +70,9 @@ hr{
     /* display: inline-block; */
     font-size: 20px;
     padding: 10px;
-    border-radius: 100px;
+    border-radius: 2rem;
     background-color: var(--button);
+
      /* border: 1px solid var(--primary-color); */
      color: var(--primary-color);
      font-weight: bold ;
@@ -87,6 +88,20 @@ margin-top: 10px;
     border-radius: 0.5rem;
     color:white;
 }*/
+
+/*  
+.link-code1{
+    background-color: var var(--primary-color);
+    border-radius: 00.5rem;
+    color: white;
+}
+.link-code2{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+
+} */
+
 /** lists**/
 
 .list-list-non-bullet{
