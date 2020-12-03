@@ -9,6 +9,7 @@
 :root{
     --primary-color:rgb(182, 7, 159);
     --dark-grey:#4B5563;
+    --off-white:#F3F4F6;
 }
 
 body{
@@ -17,15 +18,25 @@ font-family: 'Montserrat', sans-serif;
 hr{
     margin: 2rem 0rem; 
 }
-.container{
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
-    /* padding: 0rem 1rem; */
-}
 
+ .container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem; 
+} 
+.container{
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;  
+    padding: 0rem 1rem;
+    margin:auto;
+}
+ 
 .container-center{
     max-width: 600px;
     margin: auto;
+}
+.heading{
+    text-align: center;
 }
 /* links */
 .link{
@@ -113,3 +124,17 @@ hr{
     padding-top: 1rem;
     color:var(--dark-grey);
 }
+
+/* section */
+
+.section{
+    padding: 2rem;
+}
+ .section  h1{
+     text-align: ce nter;
+ }
+
+ .ow /*off white color in background*/
+ {
+     background-color: var(--off-white);
+ }
