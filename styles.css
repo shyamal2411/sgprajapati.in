@@ -67,14 +67,20 @@ hr{
 }
 .link-secondary{
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: black;
      /* border: 1px solid var(--primary-color); */
      color: var(--primary-color);
      font-weight: bold ;
      text-decoration: none;
  background-color: var(whitesmoke);
 }
-
+.btn-link{
+text-align: center; 
+}
 /*.primary-link{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
