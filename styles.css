@@ -10,7 +10,7 @@
     --primary-color:#0369A1;
     --dark-grey:#4B5563;
     --off-white:#F3F4F6;
-    --button:#CBD5E1;
+    --button:#E5E7EB;
 }
 
 body{
@@ -67,11 +67,11 @@ hr{
 }
 .link-secondary{
     color: var(--primary-color);
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 20px;
     padding: 10px;
     border-radius: 100px;
-    background-color: black;
+    background-color: var(--button);
      /* border: 1px solid var(--primary-color); */
      color: var(--primary-color);
      font-weight: bold ;
@@ -80,6 +80,7 @@ hr{
 }
 .btn-link{
 text-align: center; 
+margin-top: 10px;
 }
 /*.primary-link{
     background-color: var(--primary-color);
