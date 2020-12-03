@@ -82,6 +82,7 @@ hr{
 .btn-link{
 text-align: center; 
 margin-top: 10px;
+margin-left: 20px;
 }
 /*.primary-link{
     background-color: var(--primary-color);
