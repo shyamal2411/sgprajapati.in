@@ -218,11 +218,13 @@ footer {
     text-align: center;
     color: whitesmoke;
     border-top-right-radius: 1rem;
+    font-size: 19px;
 }
 
 .footer .link {
     color: var(--off-white);
     text-decoration: none;
+    font-size: 17px;
 }
 
 .footer .footer-header {
