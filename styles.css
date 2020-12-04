@@ -130,13 +130,25 @@ margin-bottom: 1rem; */
 
 /** lists**/
 
-.list-list-non-bullet {
+.list-non-bullet {
     list-style: none;
+
+}
+
+.list-no-bullet {
+    list-style-type: square;
+
 }
 
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.list-class {
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 /** NAVIGATION**/
