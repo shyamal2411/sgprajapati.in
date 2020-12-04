@@ -137,6 +137,11 @@ margin-bottom: 1rem; */
 
 .list-no-bullet {
     list-style-type: square;
+}
+
+.list-project-bullet {
+    list-style-type: lower-roman;
+    justify-content: space-between;
 
 }
 
