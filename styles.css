@@ -183,7 +183,8 @@ margin-bottom: 1rem; */
     color: white;
     height: 100%;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
 }
 
 .navigation .main {
@@ -254,7 +255,8 @@ footer {
     padding: 2rem 1rem;
     text-align: center;
     color: whitesmoke;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
     font-size: 19px;
 }
 
