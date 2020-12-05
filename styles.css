@@ -145,6 +145,11 @@ margin-bottom: 1rem; */
 
 }
 
+.list-certi-bullet {
+    list-style-type: square;
+    justify-content: space-between;
+}
+
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
