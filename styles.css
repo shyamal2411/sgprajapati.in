@@ -88,25 +88,38 @@ margin-bottom: 1rem; */
 
 }
 
+.link-bluebtn {
+    color: white;
+    /* display: inline-block; */
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2rem;
+    background-color: var(--primary-color);
+    /* border: 1px solid var(--off-white); */
+}
+
 .link-secondary {
     color: var(--primary-color);
     /* display: inline-block; */
     font-size: 15px;
     padding: 10px;
-    border-radius: 2rem;
-    background-color: var(--button);
+    border-radius: 3rem;
+    background-color: var(--off-white);
 
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     font-weight: bold;
     text-decoration: none;
-    background-color: var(whitesmoke);
+    background-color: var(--off-white);
 }
 
 .btn-link {
     text-align: center;
     margin-top: 10px;
     margin-left: 20px;
+
 }
 
 .link-microsoft {
