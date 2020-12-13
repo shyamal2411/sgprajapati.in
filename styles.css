@@ -122,6 +122,17 @@ margin-bottom: 1rem; */
 
 }
 
+.list-connect {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    text-decoration: none;
+    color: var(--dark-grey);
+    padding: 7px;
+    font-family: 'Russo One',
+        sans-serif;
+}
+
 .link-microsoft {
     font-family: 'Hind',
         sans-serif;
@@ -186,7 +197,11 @@ margin-bottom: 1rem; */
 .list-class {
     display: flex;
     justify-content: space-evenly;
+}
 
+.list-connect1 {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /** NAVIGATION**/
