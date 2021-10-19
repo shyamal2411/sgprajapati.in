@@ -267,7 +267,7 @@ margin-bottom: 1rem; */
 }
 
 .section h1 {
-    text-align: ce nter;
+    text-align: center;
 }
 
 
@@ -277,6 +277,9 @@ margin-bottom: 1rem; */
     /*off white color in background*/
 }
 
+.list-non-bullet{
+   margin-top: 30px;
+}
 /* Footer */
 footer {
     background-color: var(--primary-color);
