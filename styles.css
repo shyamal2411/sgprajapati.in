@@ -143,7 +143,7 @@ margin-bottom: 1rem; */
     font-size: 17px;
     font-weight: bold;
     padding: 7px;
-    background-color: var(whitesmoke);
+    background-color: var(--whitesmoke);
     border-radius: 2rem;
     border: 2px solid var(--primary-color);
 }
@@ -267,7 +267,7 @@ margin-bottom: 1rem; */
 }
 
 .section h1 {
-    text-align: ce nter;
+    text-align: center;
 }
 
 
@@ -277,6 +277,9 @@ margin-bottom: 1rem; */
     /*off white color in background*/
 }
 
+.list-item{
+   margin-top: 30px;
+}
 /* Footer */
 footer {
     background-color: var(--primary-color);
