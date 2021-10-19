@@ -12,7 +12,6 @@
     --dark-grey: #4B5563;
     --off-white: #F3F4F6;
     --button: #E5E7EB;
-
 }
 
 body {
@@ -278,7 +277,7 @@ margin-bottom: 1rem; */
     /*off white color in background*/
 }
 
-.list-items{
+.list-item{
    margin-top: 30px;
 }
 /* Footer */
