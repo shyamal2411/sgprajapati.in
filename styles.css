@@ -12,6 +12,7 @@
     --dark-grey: #4B5563;
     --off-white: #F3F4F6;
     --button: #E5E7EB;
+
 }
 
 body {
@@ -143,7 +144,7 @@ margin-bottom: 1rem; */
     font-size: 17px;
     font-weight: bold;
     padding: 7px;
-    background-color: var(whitesmoke);
+    background-color: var(--whitesmoke);
     border-radius: 2rem;
     border: 2px solid var(--primary-color);
 }
@@ -277,7 +278,7 @@ margin-bottom: 1rem; */
     /*off white color in background*/
 }
 
-.list-non-bullet li{
+.list-items{
    margin-top: 30px;
 }
 /* Footer */
